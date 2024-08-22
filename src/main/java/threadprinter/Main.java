@@ -1,4 +1,4 @@
-package sequentialprinter;
+package threadprinter;
 
 public class Main {
 
@@ -8,8 +8,9 @@ public class Main {
         PrintJob b = new PrintJob("B", "I print, too!", 100);
         PrintJob c = new PrintJob("C", "My turn now", 50);
 
-        a.print();
-        b.print();
-        c.print();
+
+        a.start();
+        b.start();
+        c.start();
     }
 }

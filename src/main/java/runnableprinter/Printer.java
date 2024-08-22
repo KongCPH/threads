@@ -1,12 +1,12 @@
-package sequentialprinter;
+package runnableprinter;
+
 
 public class Printer {
-
     private static Printer printer = new Printer();
 
     public void print(PrintJob job){
         for(int i = 0; i < job.getNoOfPrints(); i++){
-            System.out.println(job.getName() + ": " + job.getMsg());
+            System.out.println(job.getJobName() + ": " + job.getMsg());
         }
     }
 
@@ -17,5 +17,4 @@ public class Printer {
     public static Printer getPrinter(){
         return printer;
     }
-
 }

@@ -1,4 +1,6 @@
-package sequentialprinter;
+package webprinter;
+
+
 
 public class PrintJob {
 
@@ -24,10 +26,7 @@ public class PrintJob {
         return noOfPrints;
     }
 
-    public void print(){
-        Printer printer = Printer.getPrinter();
-        printer.print(this);
-    }
+
 
 
 

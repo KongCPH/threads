@@ -1,13 +1,14 @@
-package sequentialprinter;
+package threadprinter;
 
-public class PrintJob {
+
+public class PrintJob extends Thread{
 
     private String msg;
-    private String name;
+    private String jobName;
     private int noOfPrints;
 
     public PrintJob(String name, String msg, int noOfPrints){
-        this.name = name;
+        this.jobName = name;
         this.msg = msg;
         this.noOfPrints = noOfPrints;
     }
@@ -16,15 +17,15 @@ public class PrintJob {
         return msg;
     }
 
-    public String getName(){
-        return name;
+    public String getJobName(){
+        return jobName;
     }
 
     public int getNoOfPrints(){
         return noOfPrints;
     }
 
-    public void print(){
+    public void run(){
         Printer printer = Printer.getPrinter();
         printer.print(this);
     }

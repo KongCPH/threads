@@ -3,7 +3,7 @@ package synchronization;
 public class Bank {
 
 
-    public boolean  transferMoney(Account from, Account to, double amount, int pauseFor) throws InterruptedException {
+    public boolean transferMoney(Account from, Account to, double amount, int pauseFor) throws InterruptedException {
 
         if(from.getBalance() - amount < 0)
             return false;

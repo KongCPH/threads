@@ -1,4 +1,4 @@
-package webprinter;
+package sequentialwebprinter;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,16 +6,7 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.time.LocalDate;
-import java.time.LocalTime;
 
-/*
- * Purpose of this demo is to show the most basic use of sockets with inspiration
- * from: https://www.baeldung.com/a-guide-to-java-sockets
- * The server only accepts one client and only one message from the client before
- * closing the connection
- * Author: Thomas Hartmann and Jon Bertelsen
- */
 public class WebServer
 {
 
@@ -38,7 +29,19 @@ public class WebServer
             keepRunning = true;
             while(keepRunning){
                 clientSocket = serverSocket.accept(); // blocking call
-                new Thread(new ClientHandler(clientSocket)).start();
+                out = new PrintWriter(clientSocket.getOutputStream(), true);
+                in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
+                out.println("Hello client. What is your name?");
+                String name = in.readLine();
+                out.println("What would you like me to print?");
+                String msg = in.readLine();
+                out.println("How many prints would you like?");
+                int noOfPrints = Integer.parseInt(in.readLine());
+                out.println("Server is printing...");
+                Printer printer = Printer.getPrinter();
+                printer.print(new PrintJob(name, msg, noOfPrints));
+
+
             }
 
         }
@@ -67,3 +70,4 @@ public class WebServer
         }
     }
 }
+

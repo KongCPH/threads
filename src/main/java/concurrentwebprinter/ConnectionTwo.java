@@ -1,6 +1,6 @@
-package webprinter;
+package concurrentwebprinter;
 
-public class ConnectionOne {
+public class ConnectionTwo {
 
     public static void main(String[] args) {
         Client client = new Client();

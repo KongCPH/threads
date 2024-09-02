@@ -1,4 +1,4 @@
-package webprinter;
+package concurrentwebprinter;
 
 public class ConnectionThree {
 

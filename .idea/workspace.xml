@@ -5,16 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fe6c075-0ccf-4c1f-9693-921e79d2683b" name="Changes" comment="new packages">
-      <change afterPath="$PROJECT_DIR$/src/main/java/simplethreads/ThreadExercise02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/simplethreads/WorkerCancelable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/synchronization/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/synchronization/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/synchronization/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sequentialwebprinter/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sequentialwebprinter/ConnectionOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sequentialwebprinter/ConnectionThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sequentialwebprinter/ConnectionTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sequentialwebprinter/WebServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/runnableprinter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/runnableprinter/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/synchronizedprinter/PrintJob.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/synchronizedprinter/Printer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/threadprinter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadprinter/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/runnableprinter/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/runnableprinter/PrintJob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/runnableprinter/Printer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/simplethreads/ThreadExercise02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/simplethreads/WorkerCancelable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/synchronization/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/synchronization/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/threadprinter/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/threadprinter/PrintJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sequentialwebprinter/PrintJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/threadprinter/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sequentialwebprinter/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webprinter/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrentwebprinter/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webprinter/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrentwebprinter/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webprinter/ConnectionOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrentwebprinter/ConnectionOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webprinter/ConnectionThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrentwebprinter/ConnectionThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webprinter/ConnectionTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrentwebprinter/ConnectionTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webprinter/PrintJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrentwebprinter/PrintJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webprinter/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrentwebprinter/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webprinter/WebServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrentwebprinter/WebServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +42,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="solutions" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -39,34 +57,34 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ClientA.executor": "Run",
-    "Application.ConnectionOne.executor": "Run",
-    "Application.ConnectionThree.executor": "Run",
-    "Application.ConnectionTwo.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.ThreadExercise02.executor": "Run",
-    "Application.WebServer.executor": "Run",
-    "Application.pausing.Main.executor": "Run",
-    "Application.runnableprinter.Main.executor": "Run",
-    "Application.sequentialprinter.Main.executor": "Run",
-    "Application.synchronizedprinter.Main.executor": "Run",
-    "Application.threadprinter.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/kong/IdeaProjects/threads/src/main/java/startstoppauseandinterrupt",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/kong/IdeaProjects/threads/src/main/java/printthreads/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ClientA.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConnectionOne.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConnectionThree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConnectionTwo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadExercise02.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WebServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.pausing.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.runnableprinter.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.sequentialprinter.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.synchronizedprinter.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.threadprinter.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kong/IdeaProjects/threads/src/main/java/startstoppauseandinterrupt&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/kong/IdeaProjects/threads/src/main/java/printthreads/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\kong\IdeaProjects\threads\src\main\java\startstoppauseandinterrupt" />
@@ -75,10 +93,50 @@
       <recent name="C:\Users\kong\IdeaProjects\threads\src\main\java\threadprinter" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="sequentialwebprinter" />
       <recent name="webprinter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.ConnectionTwo">
+    <configuration name="ConnectionOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sequentialwebprinter.ConnectionOne" />
+      <module name="threads" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sequentialwebprinter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConnectionThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sequentialwebprinter.ConnectionThree" />
+      <module name="threads" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sequentialwebprinter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConnectionTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sequentialwebprinter.ConnectionTwo" />
+      <module name="threads" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sequentialwebprinter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="synchronization.Main" />
       <module name="threads" />
@@ -92,51 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadExercise02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simplethreads.ThreadExercise02" />
+    <configuration name="WebServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sequentialwebprinter.WebServer" />
       <module name="threads" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="simplethreads.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="pausing.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pausing.Main" />
-      <module name="threads" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pausing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="sequentialprinter.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sequentialprinter.Main" />
-      <module name="threads" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sequentialprinter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="threadprinter.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threadprinter.Main" />
-      <module name="threads" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="threadprinter.*" />
+          <option name="PATTERN" value="sequentialwebprinter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConnectionTwo" />
+        <item itemvalue="Application.ConnectionThree" />
+        <item itemvalue="Application.ConnectionOne" />
+        <item itemvalue="Application.WebServer" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ThreadExercise02" />
-        <item itemvalue="Application.pausing.Main" />
-        <item itemvalue="Application.threadprinter.Main" />
-        <item itemvalue="Application.sequentialprinter.Main" />
       </list>
     </recent_temporary>
   </component>

@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fe6c075-0ccf-4c1f-9693-921e79d2683b" name="Changes" comment="new packages">
-      <change afterPath="$PROJECT_DIR$/src/main/java/executors/exercise01/Demo01ExecutorService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/executors/exercise01/Demo01ExecutorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/executors/exercise01/Demo01ExecutorService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,10 +37,14 @@
     "Application.ConnectionOne.executor": "Run",
     "Application.ConnectionThree.executor": "Run",
     "Application.ConnectionTwo.executor": "Run",
+    "Application.DeadlockExample.executor": "Run",
     "Application.Demo01ExecutorService.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.RaceConditionExample.executor": "Run",
     "Application.ThreadExercise02.executor": "Run",
+    "Application.VisibilityProblemExample.executor": "Run",
     "Application.WebServer.executor": "Run",
+    "Application.executors.exercise02.Demo01ExecutorService.executor": "Run",
     "Application.pausing.Main.executor": "Run",
     "Application.runnableprinter.Main.executor": "Run",
     "Application.sequentialprinter.Main.executor": "Run",
@@ -68,10 +72,25 @@
       <recent name="C:\Users\kong\IdeaProjects\threads\src\main\java\threadprinter" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="executors.exercise02" />
+      <recent name="executors.exercise01" />
       <recent name="webprinter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo01ExecutorService">
+  <component name="RunManager" selected="Application.DeadlockExample">
+    <configuration name="DeadlockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrency.DeadlockExample" />
+      <module name="threads" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="concurrency.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Demo01ExecutorService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="executors.exercise01.Demo01ExecutorService" />
       <module name="threads" />
@@ -85,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="synchronization.Main" />
+    <configuration name="RaceConditionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrency.RaceConditionExample" />
       <module name="threads" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="synchronization.*" />
+          <option name="PATTERN" value="concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadExercise02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simplethreads.ThreadExercise02" />
+    <configuration name="VisibilityProblemExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrency.VisibilityProblemExample" />
       <module name="threads" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="simplethreads.*" />
+          <option name="PATTERN" value="concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,25 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pausing.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pausing.Main" />
+    <configuration name="executors.exercise02.Demo01ExecutorService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="executors.exercise02.Demo01ExecutorService" />
       <module name="threads" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pausing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="threadprinter.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threadprinter.Main" />
-      <module name="threads" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="threadprinter.*" />
+          <option name="PATTERN" value="executors.exercise02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeadlockExample" />
+        <item itemvalue="Application.VisibilityProblemExample" />
+        <item itemvalue="Application.RaceConditionExample" />
+        <item itemvalue="Application.executors.exercise02.Demo01ExecutorService" />
         <item itemvalue="Application.Demo01ExecutorService" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ThreadExercise02" />
-        <item itemvalue="Application.pausing.Main" />
-        <item itemvalue="Application.threadprinter.Main" />
       </list>
     </recent_temporary>
   </component>
